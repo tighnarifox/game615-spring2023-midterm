@@ -355,10 +355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fec86155c0a24a1193dae28b329fb54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beer: {fileID: 0}
-  salad: {fileID: 0}
-  spawnpoint: {fileID: 0}
-  scoreText: {fileID: 0}
+  beer: {fileID: 8489755571158830321, guid: 3af66a19f577f437f920bb6777d3bb68, type: 3}
+  salad: {fileID: 3643294906770198444, guid: 42fe6ad1e5de343c1886b5b98d580c97, type: 3}
+  spawnpoint: {fileID: 1027166677}
+  scoreText: {fileID: 1967081560}
 --- !u!1001 &368595148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2070,7 +2070,7 @@ GameObject:
   - component: {fileID: 1967081560}
   - component: {fileID: 1967081562}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: scoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2509,7 +2509,7 @@ MonoBehaviour:
   beer: {fileID: 8489755571158830321, guid: 3af66a19f577f437f920bb6777d3bb68, type: 3}
   salad: {fileID: 3643294906770198444, guid: 42fe6ad1e5de343c1886b5b98d580c97, type: 3}
   spawnpoint: {fileID: 1027166677}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1967081560}
 --- !u!1001 &2767508227984528206
 PrefabInstance:
   m_ObjectHideFlags: 0
