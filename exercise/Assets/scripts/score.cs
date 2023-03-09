@@ -6,11 +6,11 @@ using UnityEngine.UI;
 using TMPro;
 
 public class score : MonoBehaviour
-{
+{   public TMP_Text scoreText;
     [SerializeField] GameObject beer;
     [SerializeField] GameObject salad;
     [SerializeField] GameObject spawnpoint;
-    public TMP_Text scoreText;
+    
     
     // Start is called before the first frame update
     public void Start()
