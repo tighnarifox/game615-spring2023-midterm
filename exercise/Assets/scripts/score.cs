@@ -15,8 +15,14 @@ public class score : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
+        GameObject go = GameObject.Find("scoreText");
+        if (go) {
+            Debug.Log(go.name);
+        } else {
+            Debug.Log("No game object called scoreText found");
         scoreText = GetComponent<TMP_Text>();
         scoreText.text = "Start by finding your way home. Press space, WASD and go to your friends for salad and beer to get energy to find your way back.";
+    }
     }
 
 void Update()
@@ -51,7 +57,7 @@ void Update()
         }
         
     }
-      public void OnTriggerEnter(Collider other)
+       public void OnTriggerEnter(Collider other)
      {
         if (other.CompareTag("xinyan"))
         {
@@ -76,6 +82,8 @@ void Update()
          }
         
      }
+
 }
+
 
  
